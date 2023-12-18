@@ -5,13 +5,13 @@
     
     -   Branch isimleri belirli bir düzeni takip etmelidir. Önerilen düzen şu şekildedir:
     -      
-        `` feature/US-***/branch-title `` 
+        `` feature/TASK-***/branch-title `` 
         
-    -   `US-***` kısmı, çalıştığınız User Story'nin kodudur..
+    -   `TASK-***` kısmı, çalıştığınız Task'ın kodudur..
     -   `branch-title` kısmı, bu branch'in amacını özetler. Örnek olarak, "brand-listing" veya "fix-qr-transaction-issue" gibi açıklayıcı bir başlık olabilir.
     
 		    Örnek:
-            feature/US-10/navigation-structure
+            feature/TASK-109/navigation-structure
 
 ### Commit Atma Kılavuzu
 
@@ -19,10 +19,10 @@
     
     -   Her commit mesajı da belirli bir düzeni takip etmelidir. Önerilen düzen şu şekildedir:
         
-        `` <US-*** <feat/fix/chore>: <commit message> ``
+        `` <TASK-*** <feat/fix/chore>: <commit message> ``
         
-    -   `US-****` kısmı, commit'in hangi özelliği, düzeltmeyi veya görevi ilgilendirdiğini temsil eder.
+    -   `TASK-****` kısmı, commit'in hangi özelliği, düzeltmeyi veya görevi ilgilendirdiğini temsil eder.
     -   `feat/fix/chore` kısmı, commit'in türünü belirtir. Örnek olarak, yeni bir özellik eklemek için "feat," bir hata düzeltmek için "fix," veya küçük ya da önemsiz string değiştirmeleri gibi işler için "chore" gibi.
     
 		    Örnek:
-            US-10 feat: navigation structure added
+            TASK-10 feat: navigation structure added
